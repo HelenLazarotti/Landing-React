@@ -1,0 +1,38 @@
+.btnGoogle, .btnFace {
+    padding: 1em;
+    border-radius: 3em;
+    font-size: 16px;
+}
+.btnGoogle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 0.2em solid #8B0000;
+    color:	#8B0000;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    width: 93%;
+    text-decoration: none;
+}
+.btnGoogle:hover{
+    border: 0.2em solid #B22222;
+    color: #B22222;
+}
+
+.btnFace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 0.2em solid #1E90FF;
+    color:	#1E90FF;
+    width: 93%;
+    text-decoration: none;
+}
+.btnFace:hover{
+    border: 0.2em solid #00BFFF;
+    color: #00BFFF;
+}
