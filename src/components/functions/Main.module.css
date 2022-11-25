@@ -1,0 +1,31 @@
+.container {
+    width: 35em;
+    margin: auto auto;
+    text-align: center;
+}
+.btnSend, .btnGoogle, .btnFace {
+    padding: 1em;
+    border-radius: 3em;
+    font-size: 16px;
+}
+.btnSend{
+    background-color: #9932CC;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+.btnSend:hover{
+    background-color: #A020F0;
+}
+
+.showMore{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-size: 20px;
+}
+.showMore a{
+    text-decoration: none;
+    color: #9932CC;
+}
